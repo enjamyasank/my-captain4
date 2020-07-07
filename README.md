@@ -1,13 +1,13 @@
 # my-captain4
 #include<studio.h>
-int sum();
 void main()
 {int n;
-printf("enter the value of n");
+printf("enter the number");
 scanf("%d",&n);
-sum(n)=sum(n)+n%10;
+for(×=2;x<n;x++)
+{if(n%x!=0)
+printf("the number is prime");
+else
+printf("the number is not prime");
 }
-int sum(n)
-{n=n/10;
-return sum(n);
 }
